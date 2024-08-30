@@ -1,8 +1,8 @@
 
-package checkinnpro;
+package CheckinPro;
 
 
-public class CheckInnPro {
+public class CheckInPro {
 
     public static void main(String[] args) {
         
