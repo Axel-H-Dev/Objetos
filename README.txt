@@ -1,5 +1,4 @@
-wenas valen
+Proyecto TP2 POO
 
-wenas Axel
-
-Aguante Almafuerte!
+Axel Hernandez
+Valentino Castano Pardo
