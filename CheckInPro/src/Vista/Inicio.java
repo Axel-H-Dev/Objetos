@@ -89,6 +89,11 @@ public class Inicio extends javax.swing.JFrame {
         jButton3.setText("Habitaciones");
         jButton3.setBorder(null);
         jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
         jPanel3.setPreferredSize(new java.awt.Dimension(0, 2));
@@ -207,6 +212,18 @@ public class Inicio extends javax.swing.JFrame {
         content.repaint();
         
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        Habitaciones ha1 = new Habitaciones();
+        ha1.setSize(760, 790);
+        ha1.setLocation(0, 0);
+        
+        content.removeAll();
+        content.add(ha1, BorderLayout.CENTER);
+        content.revalidate();
+        content.repaint();
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
